@@ -1,0 +1,186 @@
+body {
+    background-color: #0d1d31;
+    background-blend-mode: overlay; 
+    background-size: cover;
+    background-position: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+ 
+input{
+    margin-top: 5px;
+}
+.tex{
+    width: 310px;
+    height: 30px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color:aliceblue;
+    border-radius: 5px;
+}
+.lab1{
+    padding-right: 260px;
+    
+}
+.lab2{
+    padding-right: 230px;
+} 
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+.button{
+    width: 318px;
+    height: 40px;
+    /* background-color:hsl(180, 96%, 28%,80%); */
+    background-color: #0d1d31;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+#con-1{
+    background-color: white;
+    width: 70%;
+    margin: 20px;
+    border-radius: 20px ;
+    color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#con-1 a{
+    color: blue;
+}
+#con-l{
+    padding: 30px 60px;
+    width: 35%;
+}
+#con-l p{
+    text-align: left;
+}
+
+#con-r{
+    width: 50%;
+    height: 100;  
+    padding: 30px 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#con-r img{ 
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+#con-r img.active {
+    opacity: 1;
+}
+  
+.line-container {
+display: flex;
+align-items: center;
+width: 85%;
+}
+
+.line {
+flex: 1;
+border: none;
+border-top: 1px solid #000;
+}
+
+.line-text {
+margin: 0 10px;
+font-size: 16px;
+}
+#log-google , #log-facebook{
+    background-color:aliceblue;
+    padding: 10px 100px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    text-decoration: none;
+}
+#log-facebook{
+    padding: 10px 85px 10px 68.6px;   
+    
+
+}
+#log-google{
+    padding-left: 67.1px;
+}
+#g-logo , #f-logo{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+#sin{
+    padding-left: 35px;
+}
+#cop{
+    padding-left: 60px;
+}
+#link-f-pass{
+    padding-left: 50%;
+}
+#welcome-message {
+    width: 89%;
+    text-align: left;
+}
+
+#sin-1{
+    padding-left: 52px;
+
+}
+sup{
+    color: black;
+}
+input:hover{
+    background-color: white;
+}
+
+#log-facebook-1{
+    background-color:aliceblue;
+    padding: 10px 79px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    text-decoration: none;
+}
+#log-google-1{
+    background-color:aliceblue;
+    padding: 10px 74.5px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    text-decoration: none;
+}
+
+#reemail{
+    color:blue
+}
+
+.highlight {
+    background-color: green;
+    display: none;
+}
+
+.typing-message {
+    color: black;
+    font-style: italic;
+    display: none;
+
+}
+
+
+
